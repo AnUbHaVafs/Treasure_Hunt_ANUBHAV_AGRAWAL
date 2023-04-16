@@ -1,0 +1,117 @@
+.mainDiv {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.emailDiv {
+    width: 60vw;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.mapImage {
+    height: 100vh;
+    width: 70vw;
+    object-fit: contain;
+}
+
+.treasureHunt {
+    font-family: 'New Rocker', cursive;
+}
+
+.emailEnterDiv {
+    /* background-color: white; */
+    width: 30vw;
+    height: 50vh;
+    /* margin: auto; */
+    margin-top: 14vh;
+    margin-left: 6vw;
+    text-align: center;
+    /* gap: 10px; */
+}
+
+.emailHeading {
+    color: white;
+    font-size: 10vh;
+    font-weight: 400px;
+    margin: auto;
+    font-family: 'New Rocker', cursive;
+    letter-spacing: 0px;
+}
+
+.emailSubHeading {
+    color: white;
+    font-size: 3vh;
+    margin-top: 15px;
+    /* margin: auto; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    letter-spacing: 0px;
+
+}
+
+.emailInput {
+    width: 25vw;
+    height: 7vh;
+    font-size: 20px;
+    color: black;
+    border-radius: 2px;
+    /* margin-top: 100px; */
+    /* padding-left: 20px; */
+    border: none;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+/* .emailInput:hover {
+    border: 5px solid gray;
+    border-radius: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+
+.emailButton:hover {
+    background-color: white;
+    color: black;
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    /* border: 5px solid white;
+    border-radius: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.emailButton {
+
+    border-radius: 50px;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    position: static;
+    width: 25vw;
+    height: 8vh;
+    margin-left: -35px;
+    font-size: 20px;
+    background-color: black;
+    /* color-interpolation-filters: white; */
+    color: white;
+    border: 5px solid white;
+    /* font-weight: 500px; */
+    /* font-family: 'New Rocker', cursive; */
+    /* border-radius: 10px; */
+    /* margin-left: 2px; */
+    /* margin-top: 30px; */
+}
+
+.inputsDiv {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    height: 30vh;
+    /* margin: auto; */
+    /* padding-left: 50px; */
+    justify-content: flex-end;
+    padding-left: 35px;
+
+    /* background-color: red; */
+}

@@ -1,0 +1,44 @@
+.fourMain {
+    background-image: url('./clueThree.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fourMarginConfig {
+    /* margin: 20px; */
+    width: 70vw;
+    height: 10vh;
+    /* background-color: red; */
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.fourMainHeading {
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+.hiddenClass {
+    /* display:  !important; */
+    /* size: 10px !important; */
+    background-color: rgba(0, 136, 255, 0) !important;
+    border: none;
+    /* background-color: red !important; */
+    width: 20px !important;
+    /* padding-left: 90vw; */
+    /* border-radius: 20px; */
+    /* background-color: ; */
+}
+
+.hiddenClass:hover {
+    /* border: none !important; */
+    display: block !important;
+    cursor: auto !important;
+}

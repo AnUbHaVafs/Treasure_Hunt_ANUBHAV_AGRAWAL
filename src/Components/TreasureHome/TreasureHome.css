@@ -1,0 +1,123 @@
+.treasureHome {
+    background-image: url('./clueO.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 100%; */
+    height: 95vh;
+    padding-top: 20px;
+    color: white;
+}
+
+.firstCenterDiv {
+    width: 100vw;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstLeftDiv {
+    /* background-color: pink; */
+    width: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    /* margin-top: 200px; */
+    /* gap: 50px; */
+}
+
+.firstHeading {
+    font-size: 60px;
+    /* background-color: yellow; */
+    text-decoration: underline;
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-bottom: 60px;
+    margin-right: -20px;
+    /* margin-top: -50px; */
+
+}
+
+.firstDescription {
+    background-color: black;
+    height: 20vh;
+    font-size: 20px;
+
+}
+
+.firstHint {
+    text-decoration: underline;
+}
+
+.firstResource:hover {
+    /* background-color: white;
+    color: black;
+    font-family: 'New Rocker', cursive; */
+    /* font-size: 30px; */
+    cursor: pointer;
+    color: red;
+    /* background-color: red; */
+    /* background-color: black; */
+    /* border: 5px solid white;
+    border-radius: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.firstResource {
+    background-color: white;
+    color: black;
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* position: static; */
+    width: 25vw;
+    height: 8vh;
+    margin-left: 45px;
+    font-size: 20px;
+    /* background-color: black; */
+    /* color-interpolation-filters: white; */
+    /* color: white; */
+    border: 5px solid white;
+    /* text-decoration: none; */
+    /* font-weight: 500px; */
+    /* font-family: 'New Rocker', cursive; */
+    /* border-radius: 10px; */
+    /* margin-left: 2px; */
+    /* margin-top: 30px; */
+}
+
+.secondRightDiv {
+    /* background-color: pink; */
+    width: 33vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.firstMarginLeft {
+    margin-left: 35px;
+}
+
+.backRed {
+    background-color: red !important;
+    border: 2px solid white !important;
+}
+
+.backRed:hover {
+    text-decoration: underline !important;
+    font-family: none;
+    color: white;
+    /* text-decoration: und ; */
+}
+
+.firstFailedClueMsg {
+    font-size: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,104 @@
+.wikiMain {
+    background-image: url('./wiki.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wikiLeftDiv {
+    width: 50vw;
+    height: 70vh;
+    /* background-color: purple; */
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.wikiRightDiv {
+    width: 40vw;
+    height: 40vh;
+    /* background-color: #800080; */
+    margin-right: 10px;
+    text-align: center;
+    background-image: url('./wiki.webp');
+    /* filter: blur(1px); */
+    /* -webkit-filter: blur(1px); */
+    /* z-index: -5; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* columns: white; */
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-size: cover;
+}
+
+.marginConfigThree {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.marginConfigFour {
+    font-family: 'New Rocker', cursive;
+    margin-top: 10px;
+    /* text-decoration: underlineq; */
+}
+
+.wikiConfig {
+    z-index: 12;
+    color: rgb(235, 67, 238);
+    font-family: 'New Rocker', cursive;
+}
+
+.wikiUpperDiv {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: red; */
+    /* padding-top: 10vh; */
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wikiLowerDiv {
+    width: 100vw;
+    height: 15vh;
+    /* background-color: red; */
+}
+
+.wikiMainHeading {
+    /* font-family: 'New Rocker', cursive; */
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.wikiMarginConfig {
+    /* padding-top: 550px !important; */
+    position: relative;
+    top: 10vh;
+    left: -3vw;
+}
+
+.wikiDescriptionOne {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 45vw;
+    margin-left: 30px;
+}
+
+.wikiMarginConfigTwo {
+    /* text-align: cente; */
+    /* margin: auto; */
+    margin-left: 36vw;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 30vw !important;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Findme.css';
 import leftArrow from './leftArr.png';
 import rightArrow from './rightArr.png';
@@ -7,13 +7,63 @@ import Mirror from './mirror.jpg';
 import Instagram from './instagram.jpg';
 import Shadow from './shadow.jpg';
 import { Link } from 'react-router-dom';
-
+import { updateUser } from '../../api/index.js';
+import { useLocation } from 'react-router-dom'
+let count = 0;
+let accuracy;
 const Findme = () => {
     const [curr, setCurr] = useState(1);
     const [ansOne, setAnsOne] = useState('');
     const [ansTwo, setAnsTwo] = useState('');
     const [ansThree, setAnsThree] = useState('');
     const [ansFour, setAnsFour] = useState('');
+    const location = useLocation();
+    // const { email } = location.state;
+    // const Email = email;
+    const Email = 'sample7@gmail.com';
+    accuracy = (1000 - count) / 10;
+    const increaseLevel = async () => {
+        const user = await updateUser({ email: Email, level: 3 })
+        console.log(user)
+    }
+    const setAnsOneF = (val) => {
+        setAnsOne(val);
+        count++;
+    }
+    const setAnsTwoF = (val) => {
+        setAnsTwo(val);
+        count++;
+    }
+    const setAnsThreeF = (val) => {
+        setAnsThree(val);
+        count++;
+    }
+    const setAnsFourF = (val) => {
+        setAnsFour(val);
+        count++;
+    }
+    const timecheck = () => {
+        console.log(accuracy)
+        if (accuracy < 95) {
+
+            return false;
+
+        }
+        return true;
+    }
+    useEffect(() => {
+        window.onbeforeunload = function () {
+            return true;
+        };
+
+        return () => {
+            window.onbeforeunload = null;
+        };
+    }, []);
+    useEffect(() => {
+        increaseLevel();
+    }, [])
+
     const handleLeft = () => {
         if (curr == 1) {
             setCurr(4);
@@ -66,18 +116,23 @@ const Findme = () => {
             <div className='findmeLower'>
                 <div className='findmeInputs'>
                     {/* // 4 inputs , one for each image */}
-                    <input onChange={(e) => { setAnsOne(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='____a____(1)' />
-                    <input onChange={(e) => { setAnsTwo(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='_y___(2)' />
-                    <input onChange={(e) => { setAnsThree(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='Sh_d__(3)' />
-                    <input onChange={(e) => { setAnsFour(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='M_rr__(4)' />
+                    <input onChange={(e) => { setAnsOneF(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='____a____(1)' />
+                    <input onChange={(e) => { setAnsTwoF(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='_y___(2)' />
+                    <input onChange={(e) => { setAnsThreeF(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='Sh_d__(3)' />
+                    <input onChange={(e) => { setAnsFourF(e.target.value) }} className='emailInput marginConfig colorBlack' type='text' placeholder='M_rr__(4)' />
 
                 </div>
                 <div className='findmeSubmit'>
                     {
-                        (!Check() ?
+                        (!timecheck() &&
+
+                            <Link to={"/"}><button className='colorBlack newConfig emailButton'>Time Up! Start Again</button></Link>)
+                    }
+                    {
+                        (!Check() && timecheck() ?
 
                             <Link to={"/wikiClue"}><button className='colorRed newConfig emailButton'>Unlock me!</button></Link> :
-                            <Link to={"/iamhidden"}><button className='colorRed newConfig emailButton'>You Got it! Clue 3</button></Link>)
+                            <Link state={{ email: Email }} to={"/iamhidden"}><button className='colorRed newConfig emailButton'>You Got it! Clue 3</button></Link>)
                     }
                 </div>
             </div>

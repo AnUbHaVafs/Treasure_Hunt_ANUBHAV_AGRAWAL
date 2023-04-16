@@ -115,3 +115,43 @@
 
     /* background-color: red; */
 }
+
+@media only screen and (max-width: 480px) {
+    .mainDiv {
+        position: relative;
+        background-image: url("tre.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat
+    }
+
+    .mapImage {
+        display: none;
+    }
+
+    .emailDiv {
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .emailEnterDiv {
+        width: fit-content;
+    }
+
+    .emailInput {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .inputsDiv {
+        padding: 0;
+    }
+
+    .emailButton {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}

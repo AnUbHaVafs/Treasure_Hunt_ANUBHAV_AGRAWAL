@@ -4,7 +4,7 @@
     background-attachment: fixed;
     background-size: cover;
     /* height: 100%; */
-    height: 95vh;
+    height: 100vh;
     padding-top: 20px;
     color: white;
 }
@@ -44,13 +44,19 @@
 
 .firstDescription {
     background-color: black;
-    height: 20vh;
+    height: 23vh;
     font-size: 20px;
 
 }
 
 .firstHint {
     text-decoration: underline;
+    font-size: 30px;
+}
+
+.firsthintSize {
+    height: 10vh !important;
+
 }
 
 .firstResource:hover {
@@ -120,4 +126,54 @@
 .firstFailedClueMsg {
     font-size: 20px;
     margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .firstHeading {
+        font-size: 32px;
+        margin: 2% auto;
+    }
+
+    .firstCenterDiv {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2%;
+        height: max-content;
+    }
+
+    .firstLeftDiv {
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .firstDescription {
+        height: fit-content;
+        padding: 2%;
+
+    }
+
+    .firstHint {
+        margin: 3% auto;
+    }
+
+    .firstResource {
+        width: 75%;
+        margin: 2% auto;
+        padding: 2%;
+        height: fit-content;
+        font-size: 16px;
+    }
+
+    .secondRightDiv {
+        width: 100%;
+    }
+
+    .firstMarginLeft {
+        margin: 0 auto 5%;
+    }
+
+    .firstFailedClueMsg {
+        color: black;
+    }
+
 }

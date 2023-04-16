@@ -1,0 +1,20 @@
+.widthFull {
+    width: 76vw;
+    height: 40vh;
+    margin-bottom: -80px;
+}
+
+.tBody {
+    /* margin: auto; */
+    /* width: 70vw; */
+    /* padding-left: 100px; */
+}
+
+.rowIncrement {
+    width: 70vw !important;
+}
+
+.tHeadTable {
+    width: 15vw;
+    text-align: center;
+}

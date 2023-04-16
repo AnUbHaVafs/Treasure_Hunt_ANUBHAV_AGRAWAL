@@ -189,3 +189,120 @@
 .marginConfig {
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+    .combinedMainDiv {
+        height: max-content;
+    }
+
+    .resp-secondMainDiv {
+        flex-wrap: wrap;
+        padding: 0% 2%;
+        height: max-content;
+    }
+
+    .secondCardDiv {
+        width: 100%;
+        text-align: center;
+        margin: 3% auto;
+        height: max-content;
+    }
+
+    .secondCardUpper {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpper .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardUpper {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpper .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardUpperTwo {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpperTwo .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardUpperThree {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpperThree .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardUpperFour {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpperFour .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardMiddle {
+        height: 100px;
+        width: 100px;
+    }
+
+    .secondCardLower {
+        text-align: center;
+        width: 100%;
+        height: max-content;
+    }
+
+
+
+    .secondMainDiv {
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .secondCardDivTwo {
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .secondCardUpperFive {
+        width: 100%;
+        height: 150px;
+    }
+
+    .secondCardUpperFive .wildlifeImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondCardDiv {
+        height: max-content;
+    }
+
+    .colorBlack {
+        width: 75%;
+        margin: 2% auto;
+    }
+
+    .newConfig {
+        left: 0;
+    }
+
+}

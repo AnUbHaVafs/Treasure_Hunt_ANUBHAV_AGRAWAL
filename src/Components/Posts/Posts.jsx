@@ -1,19 +1,52 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Posts.css';
 import iOne from './i1.jpg';
 import iTwo from './i2.jpg';
+import { useLocation } from 'react-router-dom'
 import iThree from './i3.jpg';
 import iFour from './i4.jpg';
 import iFive from './i5.jpg';
 import pOne from './p1.jpg';
 import { Link } from 'react-router-dom';
+import { updateUser } from '../../api/index.js';
 let accuracyFactor = 0;
+let accuracy;
 const Posts = () => {
     const [likes, setLikes] = useState(0);
     const [comments, setComments] = useState(0);
     const [correctOne, setCorrectOne] = useState(false);
     const [correctTwo, setCorrectTwo] = useState(false);
+    const location = useLocation();
+    // const { email } = location.state;
+    // const Email = email;
+    const Email = 'sample7@gmail.com';
+    useEffect(() => {
+        window.onbeforeunload = function () {
+            return true;
+        };
 
+        return () => {
+            window.onbeforeunload = null;
+        };
+    }, []);
+    accuracy = (1000 - accuracyFactor) / 10;
+    const increaseLevel = async () => {
+        const user = await updateUser({ email: Email, level: 2 })
+        console.log(user)
+    }
+    const timecheck = () => {
+        console.log(accuracy)
+        if (accuracy < 98) {
+
+            return false;
+
+        }
+        return true;
+    }
+
+    useEffect(() => {
+        increaseLevel();
+    }, [])
     const handleLikes = (count) => {
         console.log(count)
         setLikes(count);
@@ -47,7 +80,7 @@ const Posts = () => {
         <div className='secondMain'>
             <div className='secondHeading'>Here is your clue 2! Given Below are some posts</div>
             <div className='combinedMainDiv'>
-                <div className='secondMainDiv'>
+                <div className='secondMainDiv resp-secondMainDiv'>
                     <div className='secondCardDiv'>
                         <div className='secondCardUpper'>
                             <img className='wildlifeImage' src={iOne} alt='wildlifeImage' />
@@ -199,10 +232,15 @@ const Posts = () => {
                         <input className='emailInput colorBlack' onChange={(e) => { handleLikes(e.target.value) }} type='text' placeholder='Likes' />
                         <input className='emailInput marginConfig colorBlack' onChange={(e) => { handleComments(e.target.value) }} type='text' placeholder='Comments' />
                         {
+                            (!timecheck() &&
+
+                                <Link to={"/"}><button className='colorBlack newConfig emailButton'>Time Up! Start Again</button></Link>)
+                        }
+                        {
                             (!Check() ?
 
                                 <Link to={"/home"}><button className='colorBlack newConfig emailButton'>Click me to pass this Clue</button></Link> :
-                                <Link to={"/wikiClue"}><button className='colorRed newConfig emailButton'>You Got it! Clue 3</button></Link>)
+                                <Link state={{ email: Email }} to={"/wikiClue"}><button className='colorRed newConfig emailButton'>You Got it! Clue 3</button></Link>)
                         }
                     </div>
                 </div>

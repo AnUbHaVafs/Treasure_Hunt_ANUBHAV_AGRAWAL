@@ -52,17 +52,18 @@ npm start
 
 <h1> Some More Glimpse </h1>
 
+![Screenshot (2374)](https://user-images.githubusercontent.com/76126067/232352220-6312ef93-77e6-43ed-92e7-9543a7c62448.png)
+![Screenshot (2376)](https://user-images.githubusercontent.com/76126067/232352225-618ac115-6578-45be-83c4-1e1d559f9865.png)
 
-![Screenshot (2374)](https://user-images.g![Screenshot (2378)](https://user-images.githubusercontent.com/76126067/232351934-69897a5a-b733-4323-9dbe-1c526c4b12ee.png)
-ithubusercontent.com/76126067/232351910-a9fd0032-0a91-4b03-a837-3484bcf2e6c3.png)
-
-
-![Uploading Screenshot (2377).![Screenshot (2379)](https://user-images.githubusercontent.com/76126067/232351931-7873bb04-412f-4d42-866c-729b61a01a85.png)
-png…]()
-![Screenshot (2380)](https://user-images.githubusercontent.com/76126067/232351951-06101381-6cbe-4237-87da-3091a148afaf.png)
-![Screenshot (2383)](https://user-images.githubusercontent.com/76126067/232351953-be9bf5cd-8174-4716-9ab6-b049d77bf71f.png)
-![Screenshot (2373)](https://user-images.github![Screenshot (2370)](https://user-images.githubusercontent.com/76126067/232351968-7cf977ab-cdb3-4879-820e-43e4b94d4e8d.png)
-![Screenshot (2384)](https://user-images.githubusercontent.com/76126067/232351982-a4da196d-6628-401b-a8d2-0751ebad2e48.png)
+![Screenshot (2376)](https://user-images.githubusercontent.com/76126067/232352239-280b0332-7df9-4ffe-bd62-cfc360323155.png)
+![Screenshot (2377)](https://user-images.githubusercontent.com/76126067/232352243-c4035251-a21c-43dd-adfb-0d5c7115e322.png)
+![Screenshot (2378)](https://user-images.githubusercontent.com/76126067/232352247-1c0adc4a-0f00-4b75-8714-ece7a3f2ded2.png)
+![Screenshot (2379)![Screenshot (2380)](https://user-images.githubusercontent.com/76126067/232352257-8c370f2f-c59c-4ebd-bf31-0cef149f062c.png)
+](https://user-images.githubusercontent.com/76126067/232352254-7559f357-0796-4ae4-97b6-2868975e2ee7.png)
+![Screenshot (2362)](https://user-images.githubusercontent.com/76126067/232352287-5e9d30ff-2693-4bd4-a080-47fb5aedcc46.png)
+![Screenshot (2364)](https://user-images.githubusercontent.com/76126067/232352294-6bd34dc4-9ebd-4a52-a0a4-fc87fcc1abbe.png)
+![Screenshot (2369)](https://user-images.githubusercontent.com/76126067/232352304-063dde44-a237-4e63-bb5a-4d198a1cb96c.png)
+![Screenshot (2372)](https://user-images.githubusercontent.com/76126067/232352310-6321edbb-d044-43c1-81a1-cb4fc9ce105e.png)
 
 Thanks
 Anubhav Agrawal

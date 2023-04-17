@@ -20,11 +20,11 @@ The soft skills to be assessed by the puzzle :
 </ul>
 
 <h2>Soltuion of puzzle</h2>
-Clue 1 Answer : turing
-Clue 2 Answer : 54, 65
-Clue 3 Answer : Instagram, Cycle, Shadow, Mirror
-Clue 4 Answer : Scrrenshot is attached below 
-Clue 5 Answer : in according capsule
+Clue 1 Answer : turing <br/>
+Clue 2 Answer : 54, 65 <br/>
+Clue 3 Answer : Instagram, Cycle, Shadow, Mirror <br/>
+Clue 4 Answer : Scrrenshot is attached below  <br/>
+Clue 5 Answer : in according capsule <br/>
 
 ![Screenshot (2344)](https://user-images.githubusercontent.com/76126067/232351303-365f2d18-ab0a-4dd3-95d2-8e0c3d361a69.png)
 

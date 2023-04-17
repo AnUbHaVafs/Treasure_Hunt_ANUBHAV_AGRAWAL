@@ -66,7 +66,7 @@ npm start
 ![Screenshot (2369)](https://user-images.githubusercontent.com/76126067/232352304-063dde44-a237-4e63-bb5a-4d198a1cb96c.png)
 ![Screenshot (2372)](https://user-images.githubusercontent.com/76126067/232352310-6321edbb-d044-43c1-81a1-cb4fc9ce105e.png)
 
-Thanks
+Thanks <br/>
 Anubhav Agrawal
 
 

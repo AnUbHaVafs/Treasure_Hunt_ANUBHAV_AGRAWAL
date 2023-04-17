@@ -69,8 +69,6 @@ npm start
 Thanks
 Anubhav Agrawal
 
-usercontent.com/76126067/232351964-7b132d77-3080-4a4d-8ead-7d267ab4b191.png)
-
 
 
 

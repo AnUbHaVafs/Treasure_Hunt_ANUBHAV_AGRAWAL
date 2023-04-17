@@ -43,6 +43,10 @@ cd backend
 npm install
 npm start
 
+For Admin Signin 
+UniqueId : anubhav@gmail.com
+Password : admin123
+
 <h2>Implemented features and additional feature</h2>
 <ul>
 <li>Responsive UIs</li>

@@ -47,11 +47,27 @@ For Admin Signin
 UniqueId : anubhav@gmail.com
 Password : admin123
 
-<h2>Implemented features and additional feature</h2>
+<h2>Implemented featurese</h2>
+<ul>
+<li>Anyone with an email address can create an Id and password to participate in the game</li>
+<li>Anyone with an email address can create an Id and password to participate in the game
+The puzzle must contain
+Minimum 5 clues
+Minimum 2 dead-ends
+Minimum 1 solution </li>
+<li>All the progress / user data (eg - time taken by each user for every step, solution accuracy, etc.) depending on your puzzle requirements should be stored for every user</li>
+<li>On refreshing, from either browser or website, the puzzle should start from the same step or give the user an option to restart</li>
+<li>A dashboard for the admin where the progress of all the users can be tracked & analyzed</li>
+</ul>
+
+<h2>Additional features</h2>
 <ul>
 <li>Responsive UIs</li>
 <li>JWT Authentication APIs</li>
 <li>Each User's Solution Accuracy</li>
+<li>User analytics (eg - time taken by each user for every step, solution accuracy, etc.) depending on your puzzle should be stored and shown in the admin dashboard</li>
+<li>Data analysis using different graphs or tables</li>
+<li>User Leaderboard</li>
 <li>Tailwind Css</li>
 </ul>
 

@@ -47,11 +47,10 @@ For Admin Signin
 UniqueId : anubhav@gmail.com
 Password : admin123
 
-<h2>Implemented featurese</h2>
+<h2>Implemented features</h2>
 <ul>
 <li>Anyone with an email address can create an Id and password to participate in the game</li>
-<li>Anyone with an email address can create an Id and password to participate in the game
-The puzzle must contain
+<li>The puzzle contains
 Minimum 5 clues
 Minimum 2 dead-ends
 Minimum 1 solution </li>
